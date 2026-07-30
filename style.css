@@ -10,7 +10,57 @@
 <meta name="description" content="وب‌سایت رسمی آموزشگاه نسبت‌دار گراشی - متوسطه اول">
 
 <link rel="stylesheet" href="style.css">
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
+body{
+font-family:Tahoma,Arial,sans-serif;
+background:#f5f7fb;
+color:#222;
+line-height:1.8;
+direction:rtl;
+}
+
+header{
+background:#0d3b66;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+nav{
+background:#d4af37;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:#0d3b66;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:white;
+}
+
+section{
+max-width:1100px;
+margin:30px auto;
+padding:20px;
+}
+
+footer{
+background:#0d3b66;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
 </head>
 
 <body>
